@@ -8,7 +8,7 @@ import java.util.stream.LongStream;
 public class Main_WelcomeSubscriber {
     public static void main(String[] args) throws InterruptedException {
 
-        SubmissionPublisher<Long> publisher = new SubmissionPublisher();
+        SubmissionPublisher publisher = new SubmissionPublisher();
 
         int count = 5;
         WelcomeSubscriber subscriber = new WelcomeSubscriber(count);
